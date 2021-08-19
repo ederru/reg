@@ -1,0 +1,42 @@
+.body {
+    margin: 0px;
+    background-color: #5e756e;
+}
+
+.header {
+    background-color: #3d4d55;
+    width: 100%;
+    align-items: center;
+    display: flex;
+}
+
+.header__img {
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.header__menu {
+    margin-right: 30px;
+    text-align: right;
+}
+
+.header__menu ul {
+    
+    list-style: none;
+    width: 100px;
+    text-align: right;
+    display: flex;
+}
+
+.header__menu li {
+    margin: 10px 0px;
+}
+.header__menu li a {
+    color: white;
+    text-decoration: none;
+    margin-left: 4px;
+}
+.header__menu li a:hover{
+    text-decoration: underline;
+}
