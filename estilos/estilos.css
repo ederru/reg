@@ -88,3 +88,23 @@
     letter-spacing: 1px;
     font-size: 15px;
 }
+
+/*containertwo*/
+
+.images {
+    width: 100%;
+    position: relative;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    top: 20px;
+}
+
+.images img {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    position: absolute;
+    left: 135px;
+}
+
