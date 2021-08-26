@@ -1,19 +1,19 @@
 .body {
-    margin: 5px;
+    margin: auto;
     background-color: white;
 }
 
 .header {
-    background-color: #3d4d55;
     width: 100%;
     justify-content: space-between;
     align-items: center;
     display: flex;
+    position: fixed;
 }
 
 .header__img {
-    width: 150px;
-    margin-left: 10px;
+    width: 85px;
+    margin-left: 30px;
 }
 
 .header__menu {
@@ -31,10 +31,26 @@
     margin: 10px 10px;
 }
 .header__menu li a {
-    color: white;
+    color: #DAC858;
     text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
     margin-left: 4px;
 }
 .header__menu li a:hover{
-    text-decoration: underline;
+    background-size: 100% 2px;
+}
+
+/* empezamos a escribir el estilo del contenido de index */
+
+.container {
+    width: 70%;
+    display: contents;
+}
+
+.container img {
+    width: 100%;
 }
